@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Garp-Sans';
+  src: url("./assets/fonts/garp-sans/Garp\ Sans\ Normal.otf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme{
+  --color-primary: #E73725;
+  --color-secondary: #E1E1E1;
+  --color-background: white;
+  --color-text: black;
+  --font-sans: "Garp-Sans", sans-serif;
+}
+
+.dark {
+  --color-background: black;
+  --color-text: white;
+}
