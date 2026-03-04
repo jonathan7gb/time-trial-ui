@@ -56,7 +56,7 @@ function Team() {
                                 <h3 className="font-semibold text-primary text-foreground text-xl">
                                     {member.name}
                                 </h3>
-                                <p className="text-xs uppercase text-muted-foreground-1 text-primary/75">
+                                <p className="text-xs text-muted-foreground-1 text-primary/75">
                                     {member.role}
                                 </p>
                             </div>
