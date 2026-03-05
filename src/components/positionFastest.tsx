@@ -7,7 +7,7 @@ type Props = {
 
 function PositionFastest({ position, data }: Props) {
 
-  const seconds = (data.tempoVoltaMs / 1000).toFixed(2)
+  const seconds = (data.tempoVoltaMs / 1000).toFixed(3)
 
   return (
     <li className="border-b border-primary/50 flex flex-row justify-between">
