@@ -11,17 +11,17 @@ const teamMembers = [
     },
     {
         name: "Kauã Felix",
-        role: "Circuito IOT Físico",
+        role: "IoT Physical Circuit",
         image: "https://avatars.githubusercontent.com/u/197680268?v=4",
     },
     {
         name: "Matheus Engel",
-        role: "Circuito IOT Físico",
+        role: "IoT Physical Circuit",
         image: "https://avatars.githubusercontent.com/u/165826045?v=4",
     },
     {
         name: "Pablo Ruan Tzeliks",
-        role: "Back-end, Arquitetura e Planejamento",
+        role: "Back-end, Architecture and Planning",
         image: "https://avatars.githubusercontent.com/u/207361294?v=4",
     }
 ]
@@ -63,7 +63,7 @@ function Team() {
                         </div>
 
                         <p className="mt-3 text-muted-foreground-1">
-                            I am an ambitious workaholic, but apart from that, pretty simple person.
+                            Aprendiz em Análise e Desenvolvimento de Sistemas pelo CentroWEG. Turma MIDS 78.
                         </p>
                     </div>
                 ))}
