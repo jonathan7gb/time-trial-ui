@@ -11,7 +11,7 @@ function App() {
         <h2 className="text-2xl  md:text-4xl text-foreground font-sans tracking-wide italic text-primary">
           Ranking
         </h2>
-        <p className="mt-1 text-muted-foreground-2 text-white font-mono">
+        <p className="mt-1 text-muted-foreground-2 text-[var(--color-text)] font-mono">
           Top 10 Fastest Cars and Top 10 Recently Cars
         </p>
       </div>
