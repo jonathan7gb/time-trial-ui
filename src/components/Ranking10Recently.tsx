@@ -1,6 +1,6 @@
 import { CalendarDays } from "lucide-react"
 import PositionRecently from "./positionRecently"
-import  type { FeedRecente } from "../types/paineis"
+import type { FeedRecente } from "../types/paineis"
 
 type Props = {
   recentes: FeedRecente[]
@@ -21,7 +21,6 @@ function Ranking10Recently({ recentes }: Props) {
         </h2>
 
         <ul className="flex flex-col gap-4 mt-4">
-
           {top10Recentes.map((item, idx) => (
             <PositionRecently
               key={item.timestampMs}
@@ -29,7 +28,6 @@ function Ranking10Recently({ recentes }: Props) {
               data={item}
             />
           ))}
-
         </ul>
 
       </div>

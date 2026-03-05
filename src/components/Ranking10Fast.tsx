@@ -9,7 +9,7 @@ type Props = {
 function Ranking10Fast({ podio }: Props) {
 
   const top10Fast = [...podio]
-    .sort((a, b) => a.melhorTempoMs - b.melhorTempoMs)
+    .sort((a, b) => a.tempoVoltaMs  - b.tempoVoltaMs )
     .slice(0, 10)
 
   return (
@@ -21,15 +21,14 @@ function Ranking10Fast({ podio }: Props) {
         </h2>
 
         <ul className="flex flex-col gap-4 mt-4">
-
           {top10Fast.map((item, idx) => (
-            <PositionFastest
+              
+              <PositionFastest
               key={item.carroId}
               position={idx + 1}
               data={item}
             />
           ))}
-
         </ul>
 
       </div>

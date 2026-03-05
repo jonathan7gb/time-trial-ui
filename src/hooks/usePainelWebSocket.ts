@@ -21,8 +21,9 @@ export function usePainelWebSocket() {
 
         client.subscribe("/topic/painel", (message: IMessage) => {
 
+            console.log("Mensagem recebida:", message.body)
           if (message.body) {
-
+              
             const payload: PainelSaidaDTO = JSON.parse(message.body)
 
             setDados(payload)

@@ -7,10 +7,15 @@ export interface FeedRecente {
 
 export interface PodioGlobal {
   carroId: string;
-  melhorTempoMs: number;
+  tempoVoltaMs : number;
 }
 
 export interface PainelSaidaDTO {
   podio: PodioGlobal[];
   recentes: FeedRecente[];
+}
+
+export function converterTempo(tempo: string) {
+  const [min, seg] = tempo.split(":")
+  return Number(min) * 60 + Number(seg)
 }

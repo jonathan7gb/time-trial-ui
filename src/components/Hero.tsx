@@ -6,7 +6,7 @@ function Hero() {
 
   const dados = usePainelWebSocket()
 
-  if (!dados) return <p>Conectando ao circuito...</p>
+  if (!dados) return <p className="text-white text-center font-mono text-2xl mt-4">Conectando ao circuito...</p>
 
   return (
     <div className="p-8 lg:px-40 lg:py-8 flex flex-col lg:flex-row justify-between w-full gap-8">
